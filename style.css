@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+#container{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#heading{
+    background-color:rgb(17, 90, 119);
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+#logo{
+    text-shadow: 2px 5px10px #181a19;
+    color: whitesmoke;
+    margin: 10px 0px 0px 10px;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+
+}
+#logo:hover{
+    color: #0f0c0f;
+    transition: 0.5s;
+}
+.navbar{
+    justify-content: space-around;
+    display: flex;
+    padding-bottom: 5px;
+    
+    color:whitesmoke;
+    box-shadow: 2px 5px 10px rgb(207, 172, 172);
+    
+    
+   
+}
+.blog{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.navbar:hover{
+    color: #00F9BB;
+    transition: 0.5s;
+}
+h1{
+    text-align: center;
+    color: black;
+    
+    
+}
+.dummyBlog{
+  width: 70%;
+  height:5rem; ;
+  ;
+  margin-left: 15%;
+  background-color:gray;
+  border-radius: 20px 40px;
+ 
+  
+}
+.content{
+  width: 80%;
+  margin-left: 10%;
+ 
+  padding-bottom: 1rem;
+  background-color: black;
+   border-radius: 20px 40px;
+   font-size: 1.3rem;
+}
+.content-1{
+   width: 80%;
+  margin-left: 10%;
+ 
+  padding-bottom: 1rem;
+
+   border-radius: 20px 40px;
+   font-size: 1.3rem;
+
+}
+p{
+  color: gray;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+  font-family: cursive;
+  
+}
+.footer-list{
+  display: flex;
+  justify-content: space-around;
+}
+.link{
+    text-decoration: none;
+    color:rgb(0, 7, 10);
+    justify-content: space-around;
+    padding: 5rem;
+    padding-top: 10px;
+    
+}
+.list-item-lnline {
+    display: inline;
+    padding: 0rem 0.3rem;
+    padding-top: 0rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0rem;
+    padding-left: 0.3rem;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.footer {
+    background-color: rgb(17, 90, 119);
+    color: rgb(34, 5, 61) ;
+    padding: 1rem 0.5rem;
+    padding-top: 3rem;
+    padding-right: 0.5rem;
+    padding-bottom: 4rem;
+    border-radius: 0px 0px 40px 40px;
+    text-align: center;
+    font-size: 15px;
+    bottom: 0;
+    width: 100%;
+     box-shadow: 10px 15px 20px  black;
+}
+a{
+  text-decoration: none;
+}
